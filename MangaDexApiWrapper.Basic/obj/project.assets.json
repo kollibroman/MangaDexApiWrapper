@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "RestSharp/106.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RestSharp/106.13.0": {
+      "sha512": "vwUdmmtC5vtePeNfBWnFcixBF2KjUeVv3ss4ZFzCIkOf7NB7W/9qX8JNZD9DOrz2yGk4AJW8k9znwgPZhnoiNg==",
+      "type": "package",
+      "path": "restsharp/106.13.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.13.0.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "RestSharp >= 106.13.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/kollibroman/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj",
+      "projectName": "MangaDexApiWrapper.Basic",
+      "projectPath": "/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj",
+      "packagesPath": "/home/kollibroman/.nuget/packages/",
+      "outputPath": "/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/kollibroman/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "RestSharp": {
+            "target": "Package",
+            "version": "[106.13.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

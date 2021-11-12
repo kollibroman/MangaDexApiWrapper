@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UHiTlxocJbPzzufW49mzeGVRZ8AVfanW5bF44xx6hUcrVuIDrMgmctGzgy/Nt774PKcxQvFjlzyorPPdgQVWDw==",
+  "success": true,
+  "projectFilePath": "/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/MangaDexApiWrapper.tests.csproj",
+  "expectedPackageFiles": [
+    "/home/kollibroman/.nuget/packages/restsharp/106.13.0/restsharp.106.13.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -18,3 +18,6 @@
 /home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/bin/Debug/net5.0/MangaDexApiWrapper.Basic.pdb
 /home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/obj/Debug/net5.0/MangaDexApiWrapper.tests.csproj.CopyComplete
 /home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/bin/Debug/net5.0/RestSharp.dll
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/bin/Debug/net5.0/Newtonsoft.Json.dll
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/bin/Debug/net5.0/RestSharp.Serializers.Newtonsoft.Json.dll
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/bin/Debug/net5.0/RestSharp.Serializers.NewtonsoftJson.dll

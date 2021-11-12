@@ -1,3 +1,4 @@
+using System.Text;
 using System.Threading;
 using System;
 using System.Collections.Generic;
@@ -6,6 +7,10 @@ using System.Net;
 using System.Threading.Tasks;
 using RestSharp;
 using RestSharp.Authenticators;
+using MangaDexApiWrapper.Basic.RequestExtensions;
+using System.Net.Http;
+using RestSharp.Serializers.NewtonsoftJson;
+using Newtonsoft.Json;
 
 namespace MangaDexApiWrapper.Basic.Auth
 {
@@ -13,12 +18,19 @@ namespace MangaDexApiWrapper.Basic.Auth
     {
         public async Task ClassicLogin(string login, string passwd)
         {
-            IRestClient client = new RestClient { BaseUrl = new Uri("https://api.mangadex.org") };
+            Post post = new Post();
+            IRestClient client = new RestClient { BaseUrl = new Uri("https://api.mangadex.org/auth/login") };
+            client.UseNewtonsoftJson();
 
-            client.Authenticator = new HttpBasicAuthenticator(login, passwd);
-            IRestRequest request = new RestRequest("/auth/login", Method.POST);
-            
-            IRestResponse response = await client.ExecutePostAsync(request);
+            var RequestData = new Dictionary<string, string>
+            {
+                {"username", login},
+                {"password", passwd}
+            };
+            var JsonData = JsonConvert.SerializeObject(RequestData);
+            var contentData = new StringContent(JsonData, Encoding.UTF8);
+
+            var response = await post.PostAync(client.BaseUrl.ToString(), contentData);
             
             if (response.StatusCode != HttpStatusCode.OK)
             {

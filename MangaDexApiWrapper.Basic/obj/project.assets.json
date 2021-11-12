@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "RestSharp/106.13.0": {
         "type": "package",
         "compile": {
@@ -10,10 +19,63 @@
         "runtime": {
           "lib/netstandard2.0/RestSharp.dll": {}
         }
+      },
+      "RestSharp.Newtonsoft.Json/1.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1",
+          "RestSharp": "106.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/RestSharp.Serializers.Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.Serializers.Newtonsoft.Json.dll": {}
+        }
+      },
+      "RestSharp.Serializers.NewtonsoftJson/106.13.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "RestSharp": "106.13.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/RestSharp.Serializers.NewtonsoftJson.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.Serializers.NewtonsoftJson.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "RestSharp/106.13.0": {
       "sha512": "vwUdmmtC5vtePeNfBWnFcixBF2KjUeVv3ss4ZFzCIkOf7NB7W/9qX8JNZD9DOrz2yGk4AJW8k9znwgPZhnoiNg==",
       "type": "package",
@@ -29,11 +91,42 @@
         "restsharp.nuspec",
         "restsharp.png"
       ]
+    },
+    "RestSharp.Newtonsoft.Json/1.5.1": {
+      "sha512": "vQaByN85aGazf45Xfseu+/8PmTuOyngqSXr+jILFYZxr51NARQ4WAyVruJAVzfpFkqXQ9aQtw2+yaygyGafjYg==",
+      "type": "package",
+      "path": "restsharp.newtonsoft.json/1.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.Serializers.Newtonsoft.Json.dll",
+        "lib/netstandard2.0/RestSharp.Serializers.Newtonsoft.Json.dll",
+        "restsharp.newtonsoft.json.1.5.1.nupkg.sha512",
+        "restsharp.newtonsoft.json.nuspec"
+      ]
+    },
+    "RestSharp.Serializers.NewtonsoftJson/106.13.0": {
+      "sha512": "/nPcSkeyRiK4+q/IGlVuv9P2FYChIRvrVpm4d1/iGsMFzTu4n2VyXPAm7IcnvLdR/oczrAQ28w74Ejkf0cbd/Q==",
+      "type": "package",
+      "path": "restsharp.serializers.newtonsoftjson/106.13.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.Serializers.NewtonsoftJson.dll",
+        "lib/net452/RestSharp.Serializers.NewtonsoftJson.xml",
+        "lib/netstandard2.0/RestSharp.Serializers.NewtonsoftJson.dll",
+        "lib/netstandard2.0/RestSharp.Serializers.NewtonsoftJson.xml",
+        "restsharp.png",
+        "restsharp.serializers.newtonsoftjson.106.13.0.nupkg.sha512",
+        "restsharp.serializers.newtonsoftjson.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "RestSharp >= 106.13.0"
+      "RestSharp >= 106.13.0",
+      "RestSharp.Newtonsoft.Json >= 1.5.1",
+      "RestSharp.Serializers.NewtonsoftJson >= 106.13.0"
     ]
   },
   "packageFolders": {
@@ -74,6 +167,14 @@
         "targetAlias": "net5.0",
         "dependencies": {
           "RestSharp": {
+            "target": "Package",
+            "version": "[106.13.0, )"
+          },
+          "RestSharp.Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[1.5.1, )"
+          },
+          "RestSharp.Serializers.NewtonsoftJson": {
             "target": "Package",
             "version": "[106.13.0, )"
           }

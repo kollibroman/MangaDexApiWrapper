@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "UHiTlxocJbPzzufW49mzeGVRZ8AVfanW5bF44xx6hUcrVuIDrMgmctGzgy/Nt774PKcxQvFjlzyorPPdgQVWDw==",
+  "dgSpecHash": "2C+ImnL3ywseMw81RjsifIioASnG/FFrI0QSOn0rX/d8k0sAfi/3PxN/gJ6irNAZH96tR5uhAWELqKKywu7viw==",
   "success": true,
   "projectFilePath": "/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/MangaDexApiWrapper.tests.csproj",
   "expectedPackageFiles": [
-    "/home/kollibroman/.nuget/packages/restsharp/106.13.0/restsharp.106.13.0.nupkg.sha512"
+    "/home/kollibroman/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/home/kollibroman/.nuget/packages/restsharp/106.13.0/restsharp.106.13.0.nupkg.sha512",
+    "/home/kollibroman/.nuget/packages/restsharp.newtonsoft.json/1.5.1/restsharp.newtonsoft.json.1.5.1.nupkg.sha512",
+    "/home/kollibroman/.nuget/packages/restsharp.serializers.newtonsoftjson/106.13.0/restsharp.serializers.newtonsoftjson.106.13.0.nupkg.sha512"
   ],
   "logs": []
 }

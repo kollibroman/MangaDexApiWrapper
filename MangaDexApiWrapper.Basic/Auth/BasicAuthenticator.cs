@@ -1,3 +1,4 @@
+using System.Threading;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,21 +13,22 @@ namespace MangaDexApiWrapper.Basic.Auth
     {
         public async Task ClassicLogin(string login, string passwd)
         {
-            var client = new RestClient("https://api.mangadex.org/");
+            IRestClient client = new RestClient { BaseUrl = new Uri("https://api.mangadex.org") };
 
-            client.Authenticator = new SimpleAuthenticator("username", login, "password", passwd);
-            var request = new RestRequest("auth/login", Method.GET);
-
-            var response = await client.ExecuteAsync(request);
-
-            if(response.StatusCode == HttpStatusCode.OK)
+            client.Authenticator = new HttpBasicAuthenticator(login, passwd);
+            IRestRequest request = new RestRequest("/auth/login", Method.POST);
+            
+            IRestResponse response = await client.ExecutePostAsync(request);
+            
+            if (response.StatusCode != HttpStatusCode.OK)
             {
-                Console.WriteLine("login succesfull");
+                Console.WriteLine(response.StatusCode);
+                Console.WriteLine(response.ErrorMessage);
+                Console.WriteLine(response.ErrorException);
             }
-
             else
             {
-                Console.WriteLine("DUPA");
+                Console.WriteLine(response.StatusCode);
             }
         }
     }

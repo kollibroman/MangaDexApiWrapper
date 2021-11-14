@@ -1,0 +1,109 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MangaDexApiWrapper.tests/1.0.0": {
+        "dependencies": {
+          "MangaDexApiWrapper.Basic": "1.0.0"
+        },
+        "runtime": {
+          "MangaDexApiWrapper.tests.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "RestSharp/106.13.0": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.13.0.0",
+            "fileVersion": "106.13.0.0"
+          }
+        }
+      },
+      "RestSharp.Newtonsoft.Json/1.5.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "RestSharp": "106.13.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.Serializers.Newtonsoft.Json.dll": {
+            "assemblyVersion": "1.5.1.0",
+            "fileVersion": "1.5.1.0"
+          }
+        }
+      },
+      "RestSharp.Serializers.NewtonsoftJson/106.13.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "RestSharp": "106.13.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.Serializers.NewtonsoftJson.dll": {
+            "assemblyVersion": "106.13.0.0",
+            "fileVersion": "106.13.0.0"
+          }
+        }
+      },
+      "MangaDexApiWrapper.Basic/1.0.0": {
+        "dependencies": {
+          "RestSharp": "106.13.0",
+          "RestSharp.Newtonsoft.Json": "1.5.1",
+          "RestSharp.Serializers.NewtonsoftJson": "106.13.0"
+        },
+        "runtime": {
+          "MangaDexApiWrapper.Basic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MangaDexApiWrapper.tests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "RestSharp/106.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vwUdmmtC5vtePeNfBWnFcixBF2KjUeVv3ss4ZFzCIkOf7NB7W/9qX8JNZD9DOrz2yGk4AJW8k9znwgPZhnoiNg==",
+      "path": "restsharp/106.13.0",
+      "hashPath": "restsharp.106.13.0.nupkg.sha512"
+    },
+    "RestSharp.Newtonsoft.Json/1.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vQaByN85aGazf45Xfseu+/8PmTuOyngqSXr+jILFYZxr51NARQ4WAyVruJAVzfpFkqXQ9aQtw2+yaygyGafjYg==",
+      "path": "restsharp.newtonsoft.json/1.5.1",
+      "hashPath": "restsharp.newtonsoft.json.1.5.1.nupkg.sha512"
+    },
+    "RestSharp.Serializers.NewtonsoftJson/106.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/nPcSkeyRiK4+q/IGlVuv9P2FYChIRvrVpm4d1/iGsMFzTu4n2VyXPAm7IcnvLdR/oczrAQ28w74Ejkf0cbd/Q==",
+      "path": "restsharp.serializers.newtonsoftjson/106.13.0",
+      "hashPath": "restsharp.serializers.newtonsoftjson.106.13.0.nupkg.sha512"
+    },
+    "MangaDexApiWrapper.Basic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

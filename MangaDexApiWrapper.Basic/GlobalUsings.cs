@@ -1,0 +1,12 @@
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Threading.Tasks;
+global using System.Net.Http;
+global using System.Net;
+global using System.Text;
+global using RestSharp;
+global using RestSharp.Authenticators;
+global using MangaDexApiWrapper.Basic.RequestExtensions;
+global using RestSharp.Serializers.NewtonsoftJson;
+global using Newtonsoft.Json;

@@ -1,0 +1,12 @@
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/bin/Debug/net6.0/MangaDexApiWrapper.Basic.deps.json
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/bin/Debug/net6.0/MangaDexApiWrapper.Basic.dll
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/bin/Debug/net6.0/ref/MangaDexApiWrapper.Basic.dll
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/bin/Debug/net6.0/MangaDexApiWrapper.Basic.pdb
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/obj/Debug/net6.0/MangaDexApiWrapper.Basic.csproj.AssemblyReference.cache
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/obj/Debug/net6.0/MangaDexApiWrapper.Basic.GeneratedMSBuildEditorConfig.editorconfig
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/obj/Debug/net6.0/MangaDexApiWrapper.Basic.AssemblyInfoInputs.cache
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/obj/Debug/net6.0/MangaDexApiWrapper.Basic.AssemblyInfo.cs
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/obj/Debug/net6.0/MangaDexApiWrapper.Basic.csproj.CoreCompileInputs.cache
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/obj/Debug/net6.0/MangaDexApiWrapper.Basic.dll
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/obj/Debug/net6.0/ref/MangaDexApiWrapper.Basic.dll
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/obj/Debug/net6.0/MangaDexApiWrapper.Basic.pdb

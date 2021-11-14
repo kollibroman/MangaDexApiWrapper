@@ -1,17 +1,3 @@
-using System.Text;
-using System.Threading;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Threading.Tasks;
-using RestSharp;
-using RestSharp.Authenticators;
-using MangaDexApiWrapper.Basic.RequestExtensions;
-using System.Net.Http;
-using RestSharp.Serializers.NewtonsoftJson;
-using Newtonsoft.Json;
-
 namespace MangaDexApiWrapper.Basic.Auth
 {
     public class BasicAuthenticator

@@ -2,32 +2,28 @@ namespace MangaDexApiWrapper.Basic.Auth
 {
     public class BasicAuthenticator
     {
-        public async Task ClassicLogin(string login, string passwd)
+        public async Task ClassicLogin()
         {
-            Post post = new Post();
-            IRestClient client = new RestClient { BaseUrl = new Uri("https://api.mangadex.org/auth/login") };
-            client.UseNewtonsoftJson();
-
-            var RequestData = new Dictionary<string, string>
-            {
-                {"username", login},
-                {"password", passwd}
-            };
-            var JsonData = JsonConvert.SerializeObject(RequestData);
-            var contentData = new StringContent(JsonData, Encoding.UTF8);
-
-            var response = await post.PostAync(client.BaseUrl.ToString(), contentData);
+            IRestClient client = new RestClient("https://api.mangadex.org");
             
-            if (response.StatusCode != HttpStatusCode.OK)
-            {
-                Console.WriteLine(response.StatusCode);
-                Console.WriteLine(response.ErrorMessage);
-                Console.WriteLine(response.ErrorException);
-            }
-            else
-            {
-                Console.WriteLine(response.StatusCode);
-            }
+            IRestRequest request = new RestRequest("/auth/login", Method.POST);
+            // var content = new Dictionary<string, string>
+            // {
+            //     {"username:", "KollibroMan"},
+            //     {"password:", "Miau8888"}
+            // };
+            // var requestContent = JsonConvert.SerializeObject(content);
+            // request.AddParameter("Content-Type", "application/json", ParameterType.HttpHeader);
+            // request.AddJsonBody(requestContent);
+
+            request.AddQueryParameter("username", "KollibroMan");
+            request.AddQueryParameter("email", "filipkwiek888@gmail.com");
+            request.AddQueryParameter("password", "Miau8888");
+
+            IRestResponse response = await client.ExecuteAsync(request);
+            
+            Console.WriteLine(response.StatusCode);
+            Console.WriteLine(request.Parameters);
         }
     }
 }

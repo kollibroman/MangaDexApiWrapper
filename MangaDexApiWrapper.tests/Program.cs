@@ -12,7 +12,7 @@ namespace MangaDexApiWrapper.tests
             var auth = new BasicAuthenticator();
             var test = new RequestTest();
 
-            await auth.ClassicLogin("KollibroMan", "Miau8888");
+            await auth.ClassicLogin();
             // await test.test(); 
         }
     }

@@ -20,3 +20,10 @@
 /home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/obj/Debug/net6.0/ref/MangaDexApiWrapper.tests.dll
 /home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/obj/Debug/net6.0/MangaDexApiWrapper.tests.pdb
 /home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/obj/Debug/net6.0/MangaDexApiWrapper.tests.genruntimeconfig.cache
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/bin/Debug/net6.0/Microsoft.Extensions.Http.dll
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll

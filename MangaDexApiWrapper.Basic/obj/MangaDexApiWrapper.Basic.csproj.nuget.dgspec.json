@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj": {}
+    "/home/kollibro_man/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj": {}
   },
   "projects": {
-    "/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj": {
+    "/home/kollibro_man/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj",
+        "projectUniqueName": "/home/kollibro_man/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj",
         "projectName": "MangaDexApiWrapper.Basic",
-        "projectPath": "/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj",
-        "packagesPath": "/home/kollibroman/.nuget/packages/",
-        "outputPath": "/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/obj/",
+        "projectPath": "/home/kollibro_man/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj",
+        "packagesPath": "/home/kollibro_man/.nuget/packages/",
+        "outputPath": "/home/kollibro_man/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/kollibroman/.nuget/NuGet/NuGet.Config"
+          "/home/kollibro_man/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.108/RuntimeIdentifierGraph.json"
         }
       }
     }

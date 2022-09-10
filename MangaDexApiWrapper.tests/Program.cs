@@ -9,11 +9,7 @@ namespace MangaDexApiWrapper.tests
     {
         static async Task Main(string[] args)
         {
-            var auth = new BasicAuthenticator();
-            var test = new RequestTest();
-
-            await auth.ClassicLogin();
-            // await test.test(); 
+           
         }
     }
 }

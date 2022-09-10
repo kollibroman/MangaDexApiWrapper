@@ -513,19 +513,19 @@
     ]
   },
   "packageFolders": {
-    "/home/kollibroman/.nuget/packages/": {}
+    "/home/kollibro_man/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/MangaDexApiWrapper.tests.csproj",
+      "projectUniqueName": "/home/kollibro_man/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/MangaDexApiWrapper.tests.csproj",
       "projectName": "MangaDexApiWrapper.tests",
-      "projectPath": "/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/MangaDexApiWrapper.tests.csproj",
-      "packagesPath": "/home/kollibroman/.nuget/packages/",
-      "outputPath": "/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/obj/",
+      "projectPath": "/home/kollibro_man/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/MangaDexApiWrapper.tests.csproj",
+      "packagesPath": "/home/kollibro_man/.nuget/packages/",
+      "outputPath": "/home/kollibro_man/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/kollibroman/.nuget/NuGet/NuGet.Config"
+        "/home/kollibro_man/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -537,8 +537,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj": {
-              "projectPath": "/home/kollibroman/losoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj"
+            "/home/kollibro_man/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj": {
+              "projectPath": "/home/kollibro_man/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj"
             }
           }
         }
@@ -567,7 +567,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.108/RuntimeIdentifierGraph.json"
       }
     }
   }

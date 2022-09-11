@@ -1,4 +1,4 @@
-using MangaDexApiWrapper.Basic.Models;
+using MangaDexApiWrapper.Basic.Models.Enums;
 
 namespace MangaDexApiWrapper.Basic.Models;
 

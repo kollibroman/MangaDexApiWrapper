@@ -1,5 +1,5 @@
 
-namespace MangaDexApiWrapper.Basic.Models;
+namespace MangaDexApiWrapper.Basic.Models.EntityModels;
 
 public class Tag
 {

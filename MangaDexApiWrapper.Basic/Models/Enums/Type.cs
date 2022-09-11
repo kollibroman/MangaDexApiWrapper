@@ -1,7 +1,8 @@
-namespace MangaDexApiWrapper.Basic.Models;
+namespace MangaDexApiWrapper.Basic.Models.Enums;
 
 public enum Type
 {
     manga,
-    tag
+    tag,
+    Scanlation_Group,
 }

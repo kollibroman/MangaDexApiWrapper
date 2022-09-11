@@ -1,4 +1,4 @@
-namespace MangaDexApiWrapper.Basic.Models;
+namespace MangaDexApiWrapper.Basic.Models.Enums;
 
 public enum ContentRating
 {

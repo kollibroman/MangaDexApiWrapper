@@ -1,6 +1,6 @@
-using Type = MangaDexApiWrapper.Basic.Models.Type;
+using Type = MangaDexApiWrapper.Basic.Models.Enums.Type;
 
-namespace MangaDexApiWrapper.Basic.Models;
+namespace MangaDexApiWrapper.Basic.Models.EntityModels;
 
 public class Manga
 {

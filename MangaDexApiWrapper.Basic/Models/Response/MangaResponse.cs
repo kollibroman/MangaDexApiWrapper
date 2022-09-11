@@ -1,3 +1,5 @@
+using MangaDexApiWrapper.Basic.Models.EntityModels;
+
 namespace MangaDexApiWrapper.Basic.Models.Response;
 
 public class MangaResponse

@@ -1,3 +1,5 @@
+using MangaDexApiWrapper.Basic.Models.Enums;
+
 namespace MangaDexApiWrapper.Basic.Models;
 
 public class Relationships

@@ -1,7 +1,11 @@
 ﻿using System;
+using System.IO;
 using System.Threading.Tasks;
-using MangaDexApiWrapper.Basic.Auth;
+using MangaDexApiWrapper.Auth.Clients;
 using MangaDexApiWrapper.Basic;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace MangaDexApiWrapper.tests
 {
@@ -9,7 +13,10 @@ namespace MangaDexApiWrapper.tests
     {
         static async Task Main(string[] args)
         {
-           
+            var LoginClient = new LoginClient();
+
+            //await LoginClient.LoginPostRequest("KollibroMan", "Miau8888");
+            await LoginClient.CheckToken();
         }
     }
 }

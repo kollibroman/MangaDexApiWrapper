@@ -15,7 +15,7 @@ namespace MangaDexApiWrapper.tests
         {
             var LoginClient = new LoginClient();
 
-            await LoginClient.LoginPostRequestAsync("KollibroMan", "Miau8888");
+            //await LoginClient.LoginPostRequestAsync("KollibroMan", "Miau8888");
             await LoginClient.CheckTokenAsync();
         }
     }

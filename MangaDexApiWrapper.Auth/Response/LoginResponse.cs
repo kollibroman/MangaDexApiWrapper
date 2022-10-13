@@ -7,5 +7,6 @@ namespace MangaDexApiWrapper.Auth.Response
     {
         public Result Result { get; set; }
         public Token Token { get; set; }
+        public string Message { get; set; }
     }
 }

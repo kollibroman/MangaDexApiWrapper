@@ -11,7 +11,7 @@ namespace MangaDexApiWrapper.Auth.Clients
     {
         private readonly HttpClientConfig _config;
         private LoginResponse? _loginResponse;
-         private LoginResponse? LoginResponse { get => _loginResponse; }
+        private LoginResponse? LoginResponse { get => _loginResponse; }
 
 
         public LoginClient(HttpClientConfig config)

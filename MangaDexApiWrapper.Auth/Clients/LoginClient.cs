@@ -1,13 +1,14 @@
 using System.Net.Http.Headers;
 using System.Text;
 using MangaDexApiWrapper.Auth.Config;
+using MangaDexApiWrapper.Auth.Interfaces;
 using MangaDexApiWrapper.Auth.Request;
 using MangaDexApiWrapper.Auth.Response;
 using Newtonsoft.Json;
 
 namespace MangaDexApiWrapper.Auth.Clients
 {
-    public class LoginClient
+    public class LoginClient : ILoginClient
     {
         private readonly HttpClientConfig _config;
         private LoginResponse? _loginResponse;
@@ -17,11 +18,6 @@ namespace MangaDexApiWrapper.Auth.Clients
         public LoginClient(HttpClientConfig config)
         {
             _config = config;
-        }
-
-        public LoginClient()
-        {
-            _config = new HttpClientConfig();
         }
 
         public async Task<LoginResponse> LoginPostRequestAsync(string Username, string password)

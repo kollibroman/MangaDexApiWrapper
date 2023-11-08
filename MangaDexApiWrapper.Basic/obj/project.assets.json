@@ -282,6 +282,21 @@
             "related": ".xml"
           }
         }
+      },
+      "MangaDexApiWrapper.Auth/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "Microsoft.Net.Http": "2.2.29",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/MangaDexApiWrapper.Auth.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MangaDexApiWrapper.Auth.dll": {}
+        }
       }
     }
   },
@@ -854,10 +869,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "MangaDexApiWrapper.Auth/1.0.0": {
+      "type": "project",
+      "path": "../MangaDexApiWrapper.Auth/MangaDexApiWrapper.Auth.csproj",
+      "msbuildProject": "../MangaDexApiWrapper.Auth/MangaDexApiWrapper.Auth.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "MangaDexApiWrapper.Auth >= 1.0.0",
       "Microsoft.AspNetCore.WebUtilities >= 2.2.0",
       "Microsoft.Extensions.Http >= 7.0.0",
       "Microsoft.Net.Http >= 2.2.29",
@@ -891,7 +912,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/kollibroman/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Auth/MangaDexApiWrapper.Auth.csproj": {
+              "projectPath": "/home/kollibroman/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Auth/MangaDexApiWrapper.Auth.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -16,7 +16,11 @@ namespace MangaDexApiWrapper.Basic.Client
             _idGetter = tagIdGetter;    
             _client = httpClientFactory;
         }
-
+        /// <summary>
+        /// Basic search for manga with given title
+        /// </summary>
+        /// <param name="title"></param>
+        /// <returns>Manga with given title</returns>
         public async Task<List<Manga>> Search(string title)
         {
             var client = _client.CreateClient("MangaClient");
@@ -25,7 +29,7 @@ namespace MangaDexApiWrapper.Basic.Client
             var response = JsonConvert.DeserializeObject<NormalResponse<List<Manga>>>(await request.Content.ReadAsStringAsync());
             return response.Data;
         }
-
+        
         public async Task<List<Manga>> TagSearch(string[] includedTag_ids, string[] excludedTag_ids)
         {
             var client = _client.CreateClient("MangaClient");

@@ -14,4 +14,8 @@
     <PackageReference Include="RestSharp.Serializers.NewtonsoftJson" Version="106.13.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MangaDexApiWrapper.Auth\MangaDexApiWrapper.Auth.csproj" />
+  </ItemGroup>
+
 </Project>

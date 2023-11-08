@@ -1,5 +1,4 @@
 using MangaDexApiWrapper.Auth.EntityModels;
-using MangaDexApiWrapper.Basic.Models.Enums;
 
 namespace MangaDexApiWrapper.Auth.Response
 {

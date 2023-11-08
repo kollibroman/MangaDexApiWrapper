@@ -4,6 +4,73 @@
     "/home/kollibroman/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj": {}
   },
   "projects": {
+    "/home/kollibroman/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Auth/MangaDexApiWrapper.Auth.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kollibroman/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Auth/MangaDexApiWrapper.Auth.csproj",
+        "projectName": "MangaDexApiWrapper.Auth",
+        "projectPath": "/home/kollibroman/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Auth/MangaDexApiWrapper.Auth.csproj",
+        "packagesPath": "/home/kollibroman/.nuget/packages/",
+        "outputPath": "/home/kollibroman/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Auth/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kollibroman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Net.Http": {
+              "target": "Package",
+              "version": "[2.2.29, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/kollibroman/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +92,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/kollibroman/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Auth/MangaDexApiWrapper.Auth.csproj": {
+                "projectPath": "/home/kollibroman/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Auth/MangaDexApiWrapper.Auth.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

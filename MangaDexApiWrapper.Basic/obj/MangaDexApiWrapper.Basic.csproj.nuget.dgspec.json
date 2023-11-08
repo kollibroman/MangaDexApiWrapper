@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/kollibro_man/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj": {}
+    "/home/kollibroman/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj": {}
   },
   "projects": {
-    "/home/kollibro_man/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj": {
+    "/home/kollibroman/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kollibro_man/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj",
+        "projectUniqueName": "/home/kollibroman/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj",
         "projectName": "MangaDexApiWrapper.Basic",
-        "projectPath": "/home/kollibro_man/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj",
-        "packagesPath": "/home/kollibro_man/.nuget/packages/",
-        "outputPath": "/home/kollibro_man/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/obj/",
+        "projectPath": "/home/kollibroman/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/MangaDexApiWrapper.Basic.csproj",
+        "packagesPath": "/home/kollibroman/.nuget/packages/",
+        "outputPath": "/home/kollibroman/LosoweProjekty/MangaDexApiWrapper/MangaDexApiWrapper.Basic/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/kollibro_man/.nuget/NuGet/NuGet.Config"
+          "/home/kollibroman/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -35,12 +35,16 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.WebUtilities": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.Extensions.Http": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.Net.Http": {
               "target": "Package",
@@ -74,22 +78,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
         }
       }
     }
